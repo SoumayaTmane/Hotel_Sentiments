@@ -1,7 +1,7 @@
 # Hotel_Sentiments
 Data Science Project
 
-Features groups thinks that we should foucs on:reviews.text, reviews.rating,name, city, province
+Feature groups that we should focus on: reviews.text, reviews.rating, name, city, province
 
 ## Vanohra’s Update
 
@@ -28,11 +28,27 @@ Features groups thinks that we should foucs on:reviews.text, reviews.rating,name
   - **Numeric vs. categorical**: Box plots for `categories × reviews.rating` and `city × reviews.rating`.
   - **Categorical vs. categorical**: Stacked bar charts for `categories × province` and `city × province`.
  
-  ## Soumaya’s Update:
-  Rating reviews Distribution--> Confirms the general trend of our data. Takeaway: This plot  shows the common positive skew in review data, meaning 5 and 6-star ratings dominate the dataset.Top 20 Hotel Names Entity Bias. Checks if a few hotels account for most of our data. Takeaway: The top 20 hotels will  show a heavy imbalance, with the first few entities having significantly more data points than the rest (The Alexandrian Collection). #3 Top 20 cities--> Identifies specific urban areas driving the data volume. Takeaway: This shows which cities are most represented (Alexandria and Virginia Beach).  Top 20 Provinces--> Critical for testing our West Coast/Midwest assumptions. Takeaway: This plot reveals the true geographic concentration. The top states are: CA, VA, and Texas.
-
+ ## Soumaya’s Update:
+  Rating reviews Distribution--> Confirms the general trend of our data. Takeaway: This plot  shows the common positive skew in review data, with 5- and 6-star ratings dominating the dataset.Top 20 Hotel Names Entity Bias. Checks if a few hotels account for most of our data. Takeaway: The top 20 hotels will  show a heavy imbalance, with the first few entities having significantly more data points than the rest (The Alexandrian Collection). #3 Top 20 cities--> Identifies specific urban areas driving the data volume. Takeaway: This shows which cities are most represented (Alexandria and Virginia Beach).  Top 20 Provinces--> Critical for testing our West Coast/Midwest assumptions. Takeaway: This plot reveals the true geographic concentration. The top states are: CA, VA, and Texas.
 
   Models:
   - BERT: Bidirectional Encoder Representations from Transformers
   - Naive Bayes
   - Support Vector Machine (SVM)
+
+
+## Sumedha’s Update
+
+### 1. Basic Info
+ - This section displays a table with the columns, non-null count, and dtypes in the dataset. We can also see the memory-usage there.
+ - Missing values per column is shown
+ - Last table shows data from columns 0 to 9 including count, unique, top, frequency, mean, std, min, 25%, 50%, 75%, and max.
+
+### 2. Correlation Matrix
+ - This table is showing the correlation coefficients between multiple variables, and whether there are highly correlated pairs in the database.
+
+### 3. Leakage Variables
+ - This section displays the potential leakage variables or features that contain information that is not available at the time of the prediction.
+
+### 4. Summary of Interesting Patterns
+ - This section shows an interesting patterns found in the data.
