@@ -52,3 +52,9 @@ Feature groups that we should focus on: reviews.text, reviews.rating, name, city
 
 ### 4. Summary of Interesting Patterns
  - This section shows an interesting patterns found in the data.
+ - 
+
+
+
+ #Link for SVM model explanation & Plan: https://www.notion.so/SVM-Model-Soumaya-297a76b62c9a80fcac7ef077158d4ddb?source=copy_link
+ 
