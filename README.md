@@ -66,4 +66,4 @@ Takeaways:1) The points cluster heavily around longitudes between -130 and -60 a
 
  # Link for SVM model explanation & Plan: https://www.notion.so/SVM-Model-Soumaya-297a76b62c9a80fcac7ef077158d4ddb?source=copy_link
  # Link for BERT model explanation and Plan: https://docs.google.com/document/d/1tAldrwi85lAhwX5bUvyLpWg475lypWwTe4hirJLFkvg/edit?usp=sharing
- 
+ # Link for Naive Bayes Model Explanation & Plan: https://docs.google.com/document/d/1Xw7tSF4Wcfsdq-jT7OSzoH8IOg4V8w6CrQhlSlCvkpM/edit?tab=t.0
