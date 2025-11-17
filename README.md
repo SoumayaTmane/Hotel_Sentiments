@@ -35,6 +35,9 @@ Takeaways:1) The points cluster heavily around longitudes between -130 and -60 a
       
   - **Categorical vs. categorical**: Stacked bar charts for `categories × province`
   Takeaways: 1) Most of the dataset’s hotel reviews are concentrated in just a few provinces, mainly California (CA), Virginia (VA), and Texas (TX) —  vertical bars are widest, meaning those provinces have the largest total review counts.2) Province strongly influences category mix
+
+### 4. Bert Model Key Findings
+- **view here**: https://docs.google.com/document/d/1tAldrwi85lAhwX5bUvyLpWg475lypWwTe4hirJLFkvg/edit?tab=t.dduu7ml8t47
  
  ## Soumaya’s Update:
   Rating reviews Distribution--> Confirms the general trend of our data. Takeaway: This plot  shows the common positive skew in review data, with 5- and 6-star ratings dominating the dataset.Top 20 Hotel Names Entity Bias. Checks if a few hotels account for most of our data. Takeaway: The top 20 hotels will  show a heavy imbalance, with the first few entities having significantly more data points than the rest (The Alexandrian Collection). #3 Top 20 cities--> Identifies specific urban areas driving the data volume. Takeaway: This shows which cities are most represented (Alexandria and Virginia Beach).  Top 20 Provinces--> Critical for testing our West Coast/Midwest assumptions. Takeaway: This plot reveals the true geographic concentration. The top states are: CA, VA, and Texas.
